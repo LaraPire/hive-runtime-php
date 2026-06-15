@@ -1,0 +1,99 @@
+{
+  "version": "1.0.0",
+  "latest": "8.4",
+  "php": {
+    "8.4": {
+      "full": "8.4.5",
+      "windows": {
+        "url": "https://github.com/LaraPire/hive-php/releases/download/v8.4.5/php-8.4.5-nts-Win32-vs17-x64.zip",
+        "sha256": "",
+        "size": 28900000,
+        "type": "zip",
+        "threadSafe": false,
+        "architecture": "x64",
+        "vcVersion": "vs17"
+      },
+      "linux": {
+        "url": "https://github.com/LaraPire/hive-php/releases/download/v8.4.5/php-8.4.5-ubuntu22.04-x86_64.tar.gz",
+        "sha256": "",
+        "size": 27100000,
+        "type": "tar.gz",
+        "architecture": "x86_64",
+        "distro": "ubuntu22.04"
+      }
+    },
+    "8.3": {
+      "full": "8.3.16",
+      "windows": {
+        "url": "https://github.com/LaraPire/hive-php/releases/download/v8.3.16/php-8.3.16-nts-Win32-vs16-x64.zip",
+        "sha256": "",
+        "size": 28300000,
+        "type": "zip",
+        "threadSafe": false,
+        "architecture": "x64",
+        "vcVersion": "vs16"
+      },
+      "linux": {
+        "url": "https://github.com/LaraPire/hive-php/releases/download/v8.3.16/php-8.3.16-ubuntu22.04-x86_64.tar.gz",
+        "sha256": "",
+        "size": 26500000,
+        "type": "tar.gz",
+        "architecture": "x86_64",
+        "distro": "ubuntu22.04"
+      }
+    },
+    "8.2": {
+      "full": "8.2.27",
+      "windows": {
+        "url": "https://github.com/LaraPire/hive-php/releases/download/v8.2.27/php-8.2.27-nts-Win32-vs16-x64.zip",
+        "sha256": "",
+        "size": 27800000,
+        "type": "zip",
+        "threadSafe": false,
+        "architecture": "x64",
+        "vcVersion": "vs16"
+      },
+      "linux": {
+        "url": "https://github.com/LaraPire/hive-php/releases/download/v8.2.27/php-8.2.27-ubuntu22.04-x86_64.tar.gz",
+        "sha256": "",
+        "size": 26000000,
+        "type": "tar.gz",
+        "architecture": "x86_64",
+        "distro": "ubuntu22.04"
+      }
+    },
+    "8.1": {
+      "full": "8.1.31",
+      "windows": {
+        "url": "https://github.com/LaraPire/hive-php/releases/download/v8.1.31/php-8.1.31-nts-Win32-vs16-x64.zip",
+        "sha256": "",
+        "size": 27200000,
+        "type": "zip",
+        "threadSafe": false,
+        "architecture": "x64",
+        "vcVersion": "vs16"
+      },
+      "linux": {
+        "url": "https://github.com/LaraPire/hive-php/releases/download/v8.1.31/php-8.1.31-ubuntu22.04-x86_64.tar.gz",
+        "sha256": "",
+        "size": 25400000,
+        "type": "tar.gz",
+        "architecture": "x86_64",
+        "distro": "ubuntu22.04"
+      }
+    }
+  },
+  "extensions": {
+    "common": ["curl", "json", "mbstring", "openssl", "pdo_mysql", "pdo_sqlite", "zip", "fileinfo", "sodium", "opcache"],
+    "recommended": ["gd", "intl", "redis", "imagick", "xdebug"]
+  },
+  "iniDefaults": {
+    "memory_limit": "256M",
+    "max_execution_time": "30",
+    "upload_max_filesize": "2M",
+    "post_max_size": "8M",
+    "date.timezone": "UTC",
+    "opcache.enable": "1",
+    "opcache.memory_consumption": "128"
+  }
+}
